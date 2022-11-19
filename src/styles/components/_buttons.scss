@@ -1,0 +1,47 @@
+.big__button{
+    background-color: $purple-color;
+    color: $off-white;
+    border: none;
+    border:  .6rem outset $purple-color;
+    font-weight: bold;
+    font-size: $l-Size;
+    padding: 2.4rem 0;
+    margin: $xl-Size 0;
+    width: 100%;
+    transition: 0.2s;
+}
+
+.big__button:hover{
+    transform: scale(1.07);
+}
+
+.big__button:disabled{
+    opacity: .5;
+}
+
+.button{
+    background: $purple-color;
+    border: none;
+    border:  .3rem outset $purple-color;
+    color: $off-white;
+    font-size: $m-Size;
+    font-weight: 700;
+    padding: $s-Size;
+}
+
+.button--link{
+    background: none;
+    border: none;
+    color: #a3a3a3;
+    padding: 0;
+}
+
+.button--link:hover{
+    color: $off-white;
+
+}
+.button-remove{
+    margin-left: 10px;
+    word-break: keep-all;
+    
+}

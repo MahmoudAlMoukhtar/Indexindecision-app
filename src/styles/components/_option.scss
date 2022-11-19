@@ -1,0 +1,13 @@
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+    padding:$l-Size $m-Size;
+    border-bottom: 1px solid lighten($light-blue, 10%);
+    color: #fff;
+    font-weight:700;
+    word-break: break-all;
+}
+
